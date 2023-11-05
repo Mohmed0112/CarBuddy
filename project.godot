@@ -1,0 +1,62 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "AudioStreamPlayer",
+"class": "TextToSpeech",
+"language": "GDScript",
+"path": "res://addons/texttospeech/TextToSpeech.gd"
+}, {
+"base": "AudioStreamPlayer2D",
+"class": "TextToSpeech2D",
+"language": "GDScript",
+"path": "res://addons/texttospeech/TextToSpeech2D.gd"
+}, {
+"base": "AudioStreamPlayer3D",
+"class": "TextToSpeech3D",
+"language": "GDScript",
+"path": "res://addons/texttospeech/TextToSpeech3D.gd"
+} ]
+_global_script_class_icons={
+"TextToSpeech": "",
+"TextToSpeech2D": "",
+"TextToSpeech3D": ""
+}
+
+[application]
+
+config/name="CarBreh"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/speechtotext/plugin.cfg", "res://addons/texttospeech/plugin.cfg" )
+
+[gdnative]
+
+singletons=[ "res://pythonscript.gdnlib" ]
+singletons_disabled=[  ]
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[mono]
+
+project/assembly_name="CarBreh"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

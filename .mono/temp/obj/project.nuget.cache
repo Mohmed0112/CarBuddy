@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7b394RHL90L4El1HgtETXrAv1jhuPzWBJcZdCfwD0/TPOAiffAEt8WelA0IfcE8X2sz/a8F00UX1tHKwg7XIcA==",
+  "success": true,
+  "projectFilePath": "/home/princecaspian/Downloads/CarBud/CarBreh.csproj",
+  "expectedPackageFiles": [
+    "/home/princecaspian/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/home/princecaspian/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.2/microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/princecaspian/Downloads/CarBud/CarBreh.csproj": {}
+  },
+  "projects": {
+    "/home/princecaspian/Downloads/CarBud/CarBreh.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/princecaspian/Downloads/CarBud/CarBreh.csproj",
+        "projectName": "CarBreh",
+        "projectPath": "/home/princecaspian/Downloads/CarBud/CarBreh.csproj",
+        "packagesPath": "/home/princecaspian/.nuget/packages/",
+        "outputPath": "/home/princecaspian/Downloads/CarBud/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/princecaspian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
